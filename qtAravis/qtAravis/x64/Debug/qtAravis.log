@@ -1,0 +1,7 @@
+﻿   Qt/MSBuild: 3.3.1.1
+  Reading Qt configuration (D:/Qt/6.8.2/mingw_64/bin/qmake)
+qtAravis.vcxproj : error : ERROR running qmake: "D:/Qt/6.8.2/mingw_64/bin/qmake"  -tp vc -early "CONFIG -= debug release debug_and_release" "CONFIG += debug warn_off"  qtvars.pro
+qtAravis.vcxproj : error : qmake: (D:/Qt/6.8.2/mingw_64/bin/qmake)
+qtAravis.vcxproj : error : qmake: $PWD=D:\Works\qtAravis\qtAravis\qtAravis\x64\Debug\qt\qmake
+qtAravis.vcxproj : error : qmake: WARNING: Unable to generate output for: D:/Works/qtAravis/qtAravis/qtAravis/x64/Debug/qt/qmake/Makefile [TEMPLATE vcapp]
+qtAravis.vcxproj : error : qmake: Error creating .vcxproj file

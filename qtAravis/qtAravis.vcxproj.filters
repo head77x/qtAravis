@@ -23,7 +23,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="qtaravis_global.h">
+    <ClInclude Include="Qtaravis_global.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <QtMoc Include="qtAravis.h">
@@ -32,6 +32,143 @@
     <ClCompile Include="qtAravis.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-
+    <ClInclude Include="QtArvBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtArvEnumUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtArvDebug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtArvDomImplementation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="QtArvDevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvGenicam.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvChunkParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvIntegerNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvBooleanNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvCommandNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvStringNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvEnumUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvEnumEntryNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvEnumerationNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvDomCharacterData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvDomNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvDomElement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvDomText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvDomParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvDomDocument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvDomImplementation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="QtArvDevice.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtArvStream.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtArvCamera.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtArvGenicam.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtArvChunkParser.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtArvNode.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtArvIntegerNode.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtArvBooleanNode.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtArvCommandNode.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtArvStringNode.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtArvEnumEntryNode.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtArvEnumerationNode.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtArvDomCharacterData.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtArvDomNode.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtArvDomElement.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtArvDomText.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtArvDomParser.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtArvDomDocument.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="QtArvDebug.cpp">
+      <Filter>Source Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

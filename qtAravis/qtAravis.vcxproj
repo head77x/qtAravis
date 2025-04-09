@@ -15,8 +15,7 @@
     <Keyword>QtVS_v304</Keyword>
     <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">10.0</WindowsTargetPlatformVersion>
     <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">10.0</WindowsTargetPlatformVersion>
-    <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')"
-      >$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+    <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">
@@ -46,11 +45,8 @@
     <QtModules>core</QtModules>
     <QtBuildConfig>release</QtBuildConfig>
   </PropertyGroup>
-  <Target Name="QtMsBuildNotFound"
-    BeforeTargets="CustomBuild;ClCompile"
-    Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')">
-    <Message Importance="High"
-      Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
   </Target>
   <ImportGroup Label="ExtensionSettings" />
   <ImportGroup Label="Shared" />
@@ -98,10 +94,55 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="qtaravis_global.h"/>
-    <QtMoc Include="qtAravis.h"/>
-    <ClCompile Include="qtAravis.cpp"/>
-
+    <ClCompile Include="QtArvBooleanNode.cpp" />
+    <ClCompile Include="QtArvBuffer.cpp" />
+    <ClCompile Include="QtArvCamera.cpp" />
+    <ClCompile Include="QtArvChunkParser.cpp" />
+    <ClCompile Include="QtArvCommandNode.cpp" />
+    <ClCompile Include="QtArvDevice.cpp" />
+    <ClCompile Include="QtArvDomCharacterData.cpp" />
+    <ClCompile Include="QtArvDomDocument.cpp" />
+    <ClCompile Include="QtArvDomElement.cpp" />
+    <ClCompile Include="QtArvDomImplementation.cpp" />
+    <ClCompile Include="QtArvDomNode.cpp" />
+    <ClCompile Include="QtArvDomParser.cpp" />
+    <ClCompile Include="QtArvDomText.cpp" />
+    <ClCompile Include="QtArvEnumEntryNode.cpp" />
+    <ClCompile Include="QtArvEnumerationNode.cpp" />
+    <ClCompile Include="QtArvEnumUtil.cpp" />
+    <ClCompile Include="QtArvGenicam.cpp" />
+    <ClCompile Include="QtArvIntegerNode.cpp" />
+    <ClCompile Include="QtArvNode.cpp" />
+    <ClCompile Include="QtArvStream.cpp" />
+    <ClCompile Include="QtArvStringNode.cpp" />
+    <ClInclude Include="Qtaravis_global.h" />
+    <QtMoc Include="QtArvEnumEntryNode.h" />
+    <QtMoc Include="QtArvEnumerationNode.h" />
+    <ClInclude Include="QtArvDebug.h" />
+    <QtMoc Include="QtArvDomCharacterData.h" />
+    <QtMoc Include="QtArvDomNode.h" />
+    <QtMoc Include="QtArvDomElement.h" />
+    <QtMoc Include="QtArvDomText.h" />
+    <QtMoc Include="QtArvDomParser.h" />
+    <QtMoc Include="QtArvDomDocument.h" />
+    <ClInclude Include="QtArvDomImplementation.h" />
+    <ClInclude Include="QtArvEnumUtil.h" />
+    <QtMoc Include="QtArvStringNode.h" />
+    <QtMoc Include="QtArvCommandNode.h" />
+    <QtMoc Include="QtArvBooleanNode.h" />
+    <ClInclude Include="QtArvBuffer.h" />
+    <QtMoc Include="QtArvIntegerNode.h" />
+    <QtMoc Include="QtArvNode.h" />
+    <QtMoc Include="QtArvChunkParser.h" />
+    <QtMoc Include="QtArvGenicam.h" />
+    <QtMoc Include="QtArvCamera.h" />
+    <QtMoc Include="QtArvStream.h" />
+    <QtMoc Include="QtArvDevice.h" />
+    <QtMoc Include="qtAravis.h" />
+    <ClCompile Include="qtAravis.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="QtArvDebug.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
