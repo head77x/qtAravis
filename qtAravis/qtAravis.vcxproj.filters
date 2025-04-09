@@ -44,6 +44,27 @@
     <ClInclude Include="QtArvDomImplementation.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="QtArvDomNamedNodeMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtArvDomNodeChildList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtArvDomNodeList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtArvFakeGvCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtArvGcCategory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtArvGcCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtArvGcConverter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="QtArvDevice.cpp">
@@ -109,6 +130,42 @@
     <ClCompile Include="QtArvDomImplementation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="QtArvDomNamedNodeMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvDomNodeChildList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvDomNodeList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvEvaluator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvFakeCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvFakeDevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvFakeGvCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvFakeInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvFakeStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvGcCategory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvGcCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvGcConverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="QtArvDevice.h">
@@ -163,6 +220,21 @@
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="QtArvDomDocument.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtArvEvaluator.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtArvFakeCamera.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtArvFakeDevice.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtArvFakeInterface.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtArvFakeStream.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>
