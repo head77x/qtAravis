@@ -65,6 +65,81 @@
     <ClInclude Include="QtArvGcConverter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="QtArvGcFeatureNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtArvGcFloat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtArvGcFloatReg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtArvGcGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtArvGcIndexNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtArvGcIntConverter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtArvGcIntReg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtArvGcIntSwissKnife.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtArvGcInvalidatorNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtArvGcMaskedIntReg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtArvGcNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtArvGcPort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtArvGcPropertyNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtArvGcRegisterInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtArvGcRegisterDescriptionNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtArvGcString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtArvGcStringReg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtArvGcStructEntry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtArvGcStructReg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtArvGcSwissKnife.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtArvGcFloatSwissKnife.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtArvGcValueIndexedNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtArvGvcpPacketFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtArvGvcpPacket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtArvGvspPacketUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="QtArvDevice.cpp">
@@ -166,6 +241,99 @@
     <ClCompile Include="QtArvGcConverter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="QtArvGcFeatureNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvGcFloat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvGcFloatReg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvGcGroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvGcIndexNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvGcIntConverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvGcIntReg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvGcIntSwissKnife.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvGcMaskedIntReg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvGcNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvGcPort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvGcPropertyNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvGcRegisterInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvGcRegisterDescriptionNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvGcString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvGcStringReg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvGcStructEntry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvGcStructReg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvGcSwissKnife.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvGcFloatSwissKnife.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvGcValueIndexedNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvGentlDevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvGentlInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvGentlStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvGentlSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvGvcpPacketFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvGvcpPacket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvGvDevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvGvFakeCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvGvInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvGvspPacketUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="QtArvDevice.h">
@@ -237,9 +405,33 @@
     <QtMoc Include="QtArvFakeStream.h">
       <Filter>Header Files</Filter>
     </QtMoc>
+    <QtMoc Include="QtArvGentlDevice.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtArvGentlInterface.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtArvGentlStream.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtArvGentlSystem.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtArvGvDevice.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtArvGvFakeCamera.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtArvGvInterface.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
   </ItemGroup>
   <ItemGroup>
     <None Include="QtArvDebug.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="QtArvGcInvalidatorNode.cpp">
       <Filter>Source Files</Filter>
     </None>
   </ItemGroup>
