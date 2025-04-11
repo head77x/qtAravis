@@ -104,9 +104,6 @@
     <ClInclude Include="QtArvGcPropertyNode.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="QtArvGcRegisterInterface.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="QtArvGcRegisterDescriptionNode.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -114,9 +111,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="QtArvGcStringReg.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="QtArvGcStructEntry.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="QtArvGcStructReg.h">
@@ -138,6 +132,36 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="QtArvGvspPacketUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtArvMisc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtArvRealtime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtArvStr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtArvSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtArvTool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtArvUvcp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtArvUvStreamPacket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGentlBufferUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtArvGcInteger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtArvGcEnums.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -277,9 +301,6 @@
     <ClCompile Include="QtArvGcPropertyNode.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="QtArvGcRegisterInterface.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="QtArvGcRegisterDescriptionNode.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -287,9 +308,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="QtArvGcStringReg.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="QtArvGcStructEntry.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="QtArvGcStructReg.cpp">
@@ -332,6 +350,96 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="QtArvGvspPacketUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvGvStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvMisc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvRealtime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvStr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvTestRunner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvTool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvUvcp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvUvDevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvUvInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvUvStreamPacket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvUvStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvV4L2Device.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvV4L2Interface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvV4L2Stream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvWakeup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvXmlSchema.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvZip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtGentlDevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtGentlDataStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtGentlEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtGentlControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtGentlInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtTransportLayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtGentlRuntime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtGentlBufferUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtGentlTransportLayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvGcStructEntryNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtArvGcInteger.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -424,6 +532,69 @@
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="QtArvGvInterface.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtArvInterface.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtArvGvStream.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtArvTestRunner.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtArvUvDevice.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtArvUvInterface.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtArvUvStream.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtArvV4L2Device.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtArvV4L2Interface.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtArvV4L2Stream.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtArvWakeup.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtArvXmlSchema.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtArvZip.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtGentlDevice.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtGentlDataStream.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtGentlEvent.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtGentlControl.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtGentlInterface.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtTransportLayer.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtGentlRuntime.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtGentlTransportLayer.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtArvGcStructEntryNode.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>

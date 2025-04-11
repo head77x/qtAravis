@@ -36,7 +36,7 @@
     <Import Project="$(QtMsBuild)\qt_defaults.props" />
   </ImportGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="QtSettings">
-    <QtInstall>6.8.2_mingw_64</QtInstall>
+    <QtInstall>D:\Qt\6.8.2\msvc2022_64</QtInstall>
     <QtModules>core</QtModules>
     <QtBuildConfig>debug</QtBuildConfig>
   </PropertyGroup>
@@ -129,6 +129,7 @@
     <ClCompile Include="QtArvGcGroup.cpp" />
     <ClCompile Include="QtArvGcIndexNode.cpp" />
     <ClCompile Include="QtArvGcIntConverter.cpp" />
+    <ClCompile Include="QtArvGcInteger.cpp" />
     <ClCompile Include="QtArvGcIntReg.cpp" />
     <ClCompile Include="QtArvGcIntSwissKnife.cpp" />
     <ClCompile Include="QtArvGcMaskedIntReg.cpp" />
@@ -136,10 +137,9 @@
     <ClCompile Include="QtArvGcPort.cpp" />
     <ClCompile Include="QtArvGcPropertyNode.cpp" />
     <ClCompile Include="QtArvGcRegisterDescriptionNode.cpp" />
-    <ClCompile Include="QtArvGcRegisterInterface.cpp" />
     <ClCompile Include="QtArvGcString.cpp" />
     <ClCompile Include="QtArvGcStringReg.cpp" />
-    <ClCompile Include="QtArvGcStructEntry.cpp" />
+    <ClCompile Include="QtArvGcStructEntryNode.cpp" />
     <ClCompile Include="QtArvGcStructReg.cpp" />
     <ClCompile Include="QtArvGcSwissKnife.cpp" />
     <ClCompile Include="QtArvGcValueIndexedNode.cpp" />
@@ -154,10 +154,69 @@
     <ClCompile Include="QtArvGvFakeCamera.cpp" />
     <ClCompile Include="QtArvGvInterface.cpp" />
     <ClCompile Include="QtArvGvspPacketUtil.cpp" />
+    <ClCompile Include="QtArvGvStream.cpp" />
     <ClCompile Include="QtArvIntegerNode.cpp" />
+    <ClCompile Include="QtArvInterface.cpp" />
+    <ClCompile Include="QtArvMisc.cpp" />
     <ClCompile Include="QtArvNode.cpp" />
+    <ClCompile Include="QtArvRealtime.cpp" />
+    <ClCompile Include="QtArvStr.cpp" />
     <ClCompile Include="QtArvStream.cpp" />
     <ClCompile Include="QtArvStringNode.cpp" />
+    <ClCompile Include="QtArvSystem.cpp" />
+    <ClCompile Include="QtArvTestRunner.cpp" />
+    <ClCompile Include="QtArvTool.cpp" />
+    <ClCompile Include="QtArvUvcp.cpp" />
+    <ClCompile Include="QtArvUvDevice.cpp" />
+    <ClCompile Include="QtArvUvInterface.cpp" />
+    <ClCompile Include="QtArvUvStream.cpp" />
+    <ClCompile Include="QtArvUvStreamPacket.cpp" />
+    <ClCompile Include="QtArvV4L2Device.cpp" />
+    <ClCompile Include="QtArvV4L2Interface.cpp" />
+    <ClCompile Include="QtArvV4L2Stream.cpp" />
+    <ClCompile Include="QtArvWakeup.cpp" />
+    <ClCompile Include="QtArvXmlSchema.cpp" />
+    <ClCompile Include="QtArvZip.cpp" />
+    <ClCompile Include="QtGentlBufferUtil.cpp" />
+    <ClCompile Include="QtGentlControl.cpp" />
+    <ClCompile Include="QtGentlDataStream.cpp" />
+    <ClCompile Include="QtGentlDevice.cpp" />
+    <ClCompile Include="QtGentlEvent.cpp" />
+    <ClCompile Include="QtGentlInterface.cpp" />
+    <ClCompile Include="QtGentlRuntime.cpp" />
+    <ClCompile Include="QtGentlTransportLayer.cpp" />
+    <ClCompile Include="QtTransportLayer.cpp" />
+    <QtMoc Include="QtArvGcStructEntryNode.h" />
+    <ClInclude Include="QtArvGcEnums.h" />
+    <ClInclude Include="QtArvGcInteger.h" />
+    <ClInclude Include="QtArvRealtime.h" />
+    <ClInclude Include="QtArvStr.h" />
+    <ClInclude Include="QtArvSystem.h" />
+    <ClInclude Include="QtArvTool.h" />
+    <ClInclude Include="QtArvUvcp.h" />
+    <ClInclude Include="QtGentlBufferUtil.h" />
+    <QtMoc Include="QtGentlTransportLayer.h" />
+    <QtMoc Include="QtGentlRuntime.h" />
+    <QtMoc Include="QtTransportLayer.h" />
+    <QtMoc Include="QtGentlInterface.h" />
+    <QtMoc Include="QtGentlControl.h" />
+    <QtMoc Include="QtGentlEvent.h" />
+    <QtMoc Include="QtGentlDataStream.h" />
+    <QtMoc Include="QtGentlDevice.h" />
+    <QtMoc Include="QtArvZip.h" />
+    <QtMoc Include="QtArvXmlSchema.h" />
+    <QtMoc Include="QtArvWakeup.h" />
+    <QtMoc Include="QtArvV4L2Stream.h" />
+    <QtMoc Include="QtArvV4L2Interface.h" />
+    <QtMoc Include="QtArvV4L2Device.h" />
+    <QtMoc Include="QtArvUvStream.h" />
+    <ClInclude Include="QtArvUvStreamPacket.h" />
+    <QtMoc Include="QtArvUvInterface.h" />
+    <QtMoc Include="QtArvUvDevice.h" />
+    <QtMoc Include="QtArvTestRunner.h" />
+    <QtMoc Include="QtArvGvStream.h" />
+    <ClInclude Include="QtArvMisc.h" />
+    <QtMoc Include="QtArvInterface.h" />
     <ClInclude Include="Qtaravis_global.h" />
     <ClInclude Include="QtArvFakeGvCamera.h" />
     <ClInclude Include="QtArvGcCategory.h" />
@@ -178,10 +237,8 @@
     <ClInclude Include="QtArvGcPort.h" />
     <ClInclude Include="QtArvGcPropertyNode.h" />
     <ClInclude Include="QtArvGcRegisterDescriptionNode.h" />
-    <ClInclude Include="QtArvGcRegisterInterface.h" />
     <ClInclude Include="QtArvGcString.h" />
     <ClInclude Include="QtArvGcStringReg.h" />
-    <ClInclude Include="QtArvGcStructEntry.h" />
     <ClInclude Include="QtArvGcStructReg.h" />
     <ClInclude Include="QtArvGcSwissKnife.h" />
     <ClInclude Include="QtArvGcValueIndexedNode.h" />

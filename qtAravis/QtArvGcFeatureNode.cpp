@@ -1,8 +1,21 @@
 // QtArvGcFeatureNode.cpp - Abstract base class for GenICam feature nodes
+
 #include "QtArvGcFeatureNode.h"
 #include "QtArvGcPropertyNode.h"
 
-QtArvGcFeatureNode::QtArvGcFeatureNode() {}
+QtArvGcFeatureNode::QtArvGcFeatureNode()
+    : m_nameSpace(QtArvGcNameSpace::Custom),
+    m_changeCount(0),
+    m_displayName(nullptr),
+    m_description(nullptr),
+    m_tooltip(nullptr),
+    m_visibility(nullptr),
+    m_isAvailable(nullptr),
+    m_isImplemented(nullptr),
+    m_isLocked(nullptr)
+{
+}
+
 QtArvGcFeatureNode::~QtArvGcFeatureNode() {}
 
 QString QtArvGcFeatureNode::name() const {
@@ -15,6 +28,10 @@ void QtArvGcFeatureNode::setName(const QString& name) {
 
 QtArvGcNameSpace QtArvGcFeatureNode::nameSpace() const {
     return m_nameSpace;
+}
+
+void QtArvGcFeatureNode::setNameSpace(QtArvGcNameSpace ns) {
+    m_nameSpace = ns;
 }
 
 QString QtArvGcFeatureNode::displayName() const {
@@ -34,15 +51,15 @@ QtArvGcVisibility QtArvGcFeatureNode::visibility() const {
 }
 
 bool QtArvGcFeatureNode::isAvailable() const {
-    return true;
+    return m_isAvailable ? (m_isAvailable->toInt() != 0) : true;
 }
 
 bool QtArvGcFeatureNode::isImplemented() const {
-    return true;
+    return m_isImplemented ? (m_isImplemented->toInt() != 0) : true;
 }
 
 bool QtArvGcFeatureNode::isLocked() const {
-    return false;
+    return m_isLocked ? (m_isLocked->toInt() != 0) : false;
 }
 
 quint64 QtArvGcFeatureNode::changeCount() const {
@@ -67,4 +84,16 @@ void QtArvGcFeatureNode::setDescription(QtArvGcPropertyNode* node) {
 
 void QtArvGcFeatureNode::setTooltip(QtArvGcPropertyNode* node) {
     m_tooltip = node;
+}
+
+void QtArvGcFeatureNode::setIsAvailable(QtArvGcPropertyNode* node) {
+    m_isAvailable = node;
+}
+
+void QtArvGcFeatureNode::setIsImplemented(QtArvGcPropertyNode* node) {
+    m_isImplemented = node;
+}
+
+void QtArvGcFeatureNode::setIsLocked(QtArvGcPropertyNode* node) {
+    m_isLocked = node;
 }
